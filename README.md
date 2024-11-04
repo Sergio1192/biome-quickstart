@@ -8,6 +8,7 @@ Introducción a biome para una aplicación vite, trabajando junto a husky
 2. Instalamos vite: `npm install --save-dev --save-exact @biomejs/biome`
 3. Creamos el fichero de configuración de biome: `npx @biomejs/biome init`
 4. Modificamos biome.json a nuestro gusto
+5. Añadimos ficheros de settings y extensiones recomendadas para VS Code
 
 ## Enlaces
 - https://es.vitejs.dev/guide/
