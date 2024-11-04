@@ -13,7 +13,7 @@ Introducción a biome para una aplicación vite, trabajando junto a husky
     - lint: `biome lint --write --changed --no-errors-on-unmatched`
     - format: `biome format --write --changed --no-errors-on-unmatched`
     - check: `biome check --write --changed --no-errors-on-unmatched`
-    - check:hook: `biome check --write --changed --reporter=summary --error-on-warnings --error-on-warnings --no-errors-on-unmatched`,
+    - check:hook: `biome check --write --changed --reporter=summary --error-on-warnings --no-errors-on-unmatched`,
     - check:ci: `biome check --diagnostic-level=error --reporter=summary --error-on-warnings --no-errors-on-unmatched`
     - check:unsafe: `biome check --write --unsafe --changed --no-errors-on-unmatched`
     - check:unsafe:all: `biome check --write --unsafe --no-errors-on-unmatched`
