@@ -6,7 +6,7 @@ Introducción a biome para una aplicación vite, trabajando junto a husky
 
 1. Creamos nuestro proyecto: `npm create vite@latest`
 2. Instalamos _vite_: `npm install --save-dev --save-exact @biomejs/biome`
-3. Creamos el fichero de configuración de _biome_: `npx @biomejs/biome init`
+3. Iniciamos _biome_ (creamos el fichero de configuración): `npx @biomejs/biome init`
 4. Modificamos _biome.json_ a nuestro gusto
 5. Añadimos ficheros de _settings_ y _extensiones_ recomendadas para _VS Code_
 6. Añadimos más _scripts_ en el _package.json_ para facilitar las llamadas a _biome_:
@@ -20,6 +20,7 @@ Introducción a biome para una aplicación vite, trabajando junto a husky
     - check:errors:all: `biome check --diagnostic-level=error --no-errors-on-unmatched`
     - check:errors:all:show-all: `biome check --diagnostic-level=error --max-diagnostics=none --no-errors-on-unmatched`
 7. Instalamos _husky_: `npm install --save-dev husky`
+8. Iniciamos _husky_ (creamos scripts de los hooks de git): `npx husky init`
 
 ## Enlaces
 - https://es.vitejs.dev/guide/

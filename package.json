@@ -15,7 +15,8 @@
     "check:unsafe:all": "biome check --write --unsafe --no-errors-on-unmatched",
     "check:errors:all": "biome check --diagnostic-level=error --no-errors-on-unmatched",
     "check:errors:all:show-all": "biome check --diagnostic-level=error --max-diagnostics=none --no-errors-on-unmatched",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^18.3.1",
