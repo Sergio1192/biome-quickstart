@@ -23,6 +23,7 @@ Introducción a biome para una aplicación vite, trabajando junto a husky
 8. Iniciamos _husky_ (creamos scripts de los hooks de git): `npx husky init`
 9. Instalamos el _plugin_ de _biome_ para _vite_: `npm install -D @pbr1111/vite-plugin-biome`
 10. Añadimos el _plugin_ en el _vite.config.ts_
+11. Creamos _workflow_ de _CI_
 
 ## Enlaces
 - https://es.vitejs.dev/guide/
