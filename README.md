@@ -19,12 +19,14 @@ Introducción a biome para una aplicación vite, trabajando junto a husky
     - check:unsafe:all: `biome check --write --unsafe --no-errors-on-unmatched`
     - check:errors:all: `biome check --diagnostic-level=error --no-errors-on-unmatched`
     - check:errors:all:show-all: `biome check --diagnostic-level=error --max-diagnostics=none --no-errors-on-unmatched`
+    - check:all:show-all: `biome check --max-diagnostics=none --no-errors-on-unmatched`
 7. Instalamos _husky_: `npm install --save-dev husky`
 8. Iniciamos _husky_ (creamos scripts de los hooks de git): `npx husky init`
 9. Instalamos el _plugin_ de _biome_ para _vite_: `npm install -D @pbr1111/vite-plugin-biome`
 10. Añadimos el _plugin_ en el _vite.config.ts_
 11. Creamos _workflow_ de _CI_
-12. Arreglamos de manera automática lo errores y warnings del _linter_ y el _formatter_: `npm run check:unsafe:all`
+12. Corregimos de manera automática los errores y warnings del _linter_ y el _formatter_: `npm run check:unsafe:all`
+13. Corregimos de manera manual los errores y warnings del _linter_ y el _formatter_: `npm run check:all:show-all`
 
 ## Enlaces
 - https://es.vitejs.dev/guide/
